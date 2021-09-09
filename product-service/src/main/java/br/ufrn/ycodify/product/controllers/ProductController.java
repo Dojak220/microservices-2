@@ -20,7 +20,7 @@ public class ProductController {
         return iProductService.findAll();
     }
 
-    @GetMapping("/product/{id}")
+    @GetMapping("/products/{id}")
     public Product productDetail(@PathVariable Long id) {
         return iProductService.findById(id);
     }
