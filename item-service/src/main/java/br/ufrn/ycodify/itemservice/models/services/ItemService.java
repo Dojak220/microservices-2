@@ -5,6 +5,6 @@ import br.ufrn.ycodify.itemservice.models.Item;
 import java.util.List;
 
 public interface ItemService {
-    public List<Item> findAll();
-    public Item findById(Long id);
+    List<Item> findAll();
+    Item findById(Long id, Integer quantity);
 }
